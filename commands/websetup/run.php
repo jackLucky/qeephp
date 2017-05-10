@@ -104,7 +104,7 @@ class WebSetup
     /**
      * 默认的异常处理
      */
-    function exception_handler(Exception $ex)
+    function exception_handler($ex)
     {
     	//如果是错误对象直接抛出不做捕捉
 	    if( is_a( $ex, 'error') )
